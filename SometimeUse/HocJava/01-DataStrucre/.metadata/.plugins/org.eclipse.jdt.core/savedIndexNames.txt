@@ -1,6 +1,0 @@
-INDEX VERSION 1.131+D:\HocJava\01-DataStrucre\.metadata\.plugins\org.eclipse.jdt.core
-1238065739.index
-3352537029.index
-2415905491.index
-2199144177.index
-1865797976.index
