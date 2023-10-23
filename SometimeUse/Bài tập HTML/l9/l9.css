@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+*{
+    box-sizing: border-box;
+}
+#container {
+    margin: 0px auto;
+    background-color: white;
+    width: 100%;
+    height: 700px;
+}
+.row{
+    float: left;
+    width: 100%;
+    margin: 20px ;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    padding-top: -10%;
+    margin-top: -20px;
+    box-sizing: border-box;
+}
+.header .logo{
+    float: left;
+    height: 80px; 
+    width: 10%  
+}
+;
+.header .info{
+    width: 85%;
+    float: left;
+    height: 80px;
+}
+.header .info .main{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-right: 5%;
+    text-transform: uppercase;    
+}
+.header .info .main p{
+    text-transform: none;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: -10px;
+   
+}
+.header .info .main p.a{
+    margin-left:20%;
+    padding-left: 10px;
+}
+.menu{
+    width: 100%;
+    height: 30px;
+    margin-top: -20px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border:  3px dotted black;
+    border-left: none; 
+}
+.menu ul li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: red;
+  }
+.bigbag{
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.bigbag .bed{
+    width: 45%;
+    height: 700px;
+    background-color: aqua;
+    background-image: url(https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71dVyV7YwoL._AC_SL1000_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 10px;
+}    
+.bigbag .bed .bigsale{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fbc531;
+    margin-left: 13%;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigbag .bed .bigsale .value{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 100%;
+}
+.bigbag .sofa{
+    float: left;
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box;
+}
+.bigbag .sofa .long{
+    width: 100%;
+    height: 88%;
+    background-image: url(https://m.media-amazon.com/images/I/61qvBoj7dhS._AC_SL1500_.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    margin-bottom: 10px;
+}
+.bigbag .sofa .short{
+    width: 49%;
+    height: 50%;
+    background-color: brown;
+    float: left;
+    margin-right: 10px;
+    background-image: url(https://i.pinimg.com/736x/63/bf/0f/63bf0f5195646e5cd8ada16875de4b4b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.bigbag .sofa .shortS{
+    width: 49%;
+    height: 50%;
+    background-color: rgb(28, 167, 53);
+    float: right;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/484/98/546/design-home-pillow-red-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.bigbag .sofa .shortS .sale{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 13%;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigbag .sofa .shortS .sale{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100%;
+    color: #bdc3c7;
+}
+.task{
+    width: 100%;
+    height: 20px;
+}
+.task .small{
+    float: left;
+    margin-right: 20px;
+    border-right: 1px solid black;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+.task .small.none{
+    border: none;
+}
+.option{
+    width: 100%;
+    height: 350px;
+}
+.option .square{
+    width: 19%;
+    height: 350px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    background-color: #bdc3c7;
+    float: left;
+    text-align: center;
+}
+.option .square .no{
+    text-decoration: line-through;
+    float: left;
+    margin-left: 30%;
+    margin-right: -20px;
+}
+.option .square .money{
+    padding: 0 60px;
+    font-weight:bold;
+}
+.option .square .pic.a{
+    width: 100%;
+    height: 80%;
+    background-color: aqua;
+    background-image: url(https://leegriggs.files.wordpress.com/2018/08/sheen-chair-4k.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.option .square .pic.b{
+    width: 100%;
+    height: 80%;
+    background-color: aqua;
+    background-image: url(https://wallpapercave.com/wp/wp2758393.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.option .square .pic.c{
+    width: 100%;
+    height: 80%;
+    background-color: aqua;
+    background-image: url(https://w0.peakpx.com/wallpaper/317/409/HD-wallpaper-blue-chair-lamp-stone-chandelier-chair-wall-old-blue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.option .square .pic.d{
+    width: 100%;
+    height: 80%;
+    background-color: aqua;
+    background-image: url(https://i.pinimg.com/originals/28/2c/ce/282cce846c591120297d2b6d0b5eab05.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.option .square .pic.e{
+    width: 100%;
+    height: 80%;
+    background-color: aqua;
+    background-image: url(https://images.pexels.com/photos/2762247/pexels-photo-2762247.jpeg?cs=srgb&dl=pexels-hormel-2762247.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

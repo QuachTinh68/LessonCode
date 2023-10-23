@@ -1,0 +1,22 @@
+ body {
+    background: url(https://th.bing.com/th/id/OIP.v5-IG0gQvC2KPdUBoF49JwHaEK?w=303&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    background-repeat: no-repeat;
+    background-color: rgb(22, 124, 64);
+
+}
+h1 {
+    color:rgb(217, 255, 0);
+    font-size: 50px;
+}
+#text1 {
+    color:rgb(205, 228, 255);
+    font-size: 67px;
+}
+#text2 {
+    color:blueviolet;
+    font-size: medium;
+}
+.note {
+    color: blueviolet;
+    font-size: larger;
+}

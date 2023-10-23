@@ -1,0 +1,19 @@
+select TENBM, count(MAGV)
+from BOMON join GIAOVIEN on BOMON.MABM=GIAOVIEN.MABM
+group by TENBM
+select MAGV, HOTEN,LUONG
+from GIAOVIEN
+where LUONG > (select AVG(LUONG)from GIAOVIEN)
+
+
+select * from CONGVIEC
+select * from DETAI
+
+select HOTEN, count(CONGVIEC.MADT) as SoLuongThamGiaDeTai
+from GIAOVIEN join THAMGIADT on GIAOVIEN.MAGV=THAMGIADT.MAGV
+				join CONGVIEC on CONGVIEC.MADT=THAMGIADT.MADT
+group by HOTEN
+
+select HOTEN, count(NGUOITHAN.MAGV) as soluongnguoithan
+from GIAOVIEN join NGUOITHAN on GIAOVIEN.MAGV=NGUOITHAN.MAGV
+group by HOTEN

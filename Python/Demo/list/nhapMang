@@ -1,0 +1,6 @@
+def nhap_mang(n):
+    arr = []
+    for _ in range(n):
+        value = int(input())
+        arr.append(value)
+    return arr

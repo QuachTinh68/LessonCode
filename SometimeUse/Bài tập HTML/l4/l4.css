@@ -1,0 +1,67 @@
+body{
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+header{
+    background-color: #3498db;
+    min-height: 100px;
+}
+nav{
+    background-color: red;
+    min-height: 60px;
+    float: left;
+}
+.two{
+    background-color:#27ae60 ;
+    width: 20%;
+    float: left;
+    min-height: 200px;
+}
+#three{
+    background-color: #0652DD;
+    min-height:200px;
+    width: 70%;
+    float: left;
+}
+.left{
+    float:left;
+    min-width: 10%;
+}
+#four{
+    background-color: #12CBC4;
+    min-height: 100px;
+}
+#five{
+    background-color: #6F1E51;
+    min-height: 100PX;
+    width: 100%;
+}
+.right{
+    float: left;
+    min-width: 20%;
+}
+.right .six{
+    background-color:#12CBC4;
+    min-height: 75px;
+    width: 100%;
+    float: left;
+}
+article{
+    float: left;
+    width: 100%;
+    min-height: 75px;
+    background-color:#f1c40f; 
+}
+aside{
+    background-color: #C4E538;
+    float: right;
+    width: 80%;
+    min-height: 150px;
+}
+footer{
+    background-color: #2980b9;
+    min-height: 140px;
+}
